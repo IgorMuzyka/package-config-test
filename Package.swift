@@ -9,7 +9,6 @@ let package = Package(
         .library(name: "test", targets: ["test"]),
     ],
     dependencies: [
-		.package(url: "https://github.com/IgorMuzyka/PackageConfig", .branch("master")),
  	    .package(url: "https://github.com/IgorMuzyka/phase", .branch("master")),
 		.package(url: "https://github.com/IgorMuzyka/ignore", .branch("master")),
     ],
